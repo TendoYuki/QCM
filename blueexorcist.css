@@ -1,0 +1,40 @@
+html {
+	background-image:url("images/background/blueexorcist.png");
+	background-attachment:fixed;
+	background-size:100% 100%;
+} 
+body{
+	background-color:transparent;
+	background-transparent:10%;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+#image{
+	width:30%;
+	height:auto;
+}
+p{
+	display: inline;
+}
+#qcm{
+	background-color:rgba(135,206,235, 0.7);
+	margin-left:20%;
+	margin-right:20%;
+	text-decoration:opacity="100%";
+}
+hr{
+	background-color:black;
+}
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 30px;
+}
+#scroll_to_top img {
+  width: 25px;
+}
