@@ -5,6 +5,20 @@
         <title> Naruto Qcm </title>
 <HEAD>
 <script src="naruto.js" defer="defer"></script>
+<style>
+			#playlist{
+			list-style:none;
+			}
+			#playlist li a{
+			color:orange;
+			text-decoration:none;
+			background-color:rgba(10,10,10,0.7);
+			}
+			#playlist .current-song a{
+				color:blue;
+				background-color:rgba(100,100,100,0.7);
+				}
+		</style>
 </HEAD>
 <H1><button type="bouton" onclick="window.location.href = 'anime.html';"></left>Anime Qcm</button></H1>
 <center><font size="6"
@@ -12,9 +26,8 @@
 Ceci est un QCM sur Naruto !<br> Connaissez-vous Naruto sur le bout des doigts ? <br>A vous de jouer pour avoir 10/10 :D .
 <br> <br>Pour n'avoir aucun spoil, vous n'aurez pas les réponses a la fin du quizz.
 <br><br><br>
-<span style="color:black"> Commencez le test maintenant !</div>
-<FORM id="qcm" >
-<br><br><br><br>
+<span style="color:black"> Mettez la musique et commencez le test dès maintenant !</div>
+<FORM id="qcm" ><br><br><br><br>
 <hr>
 <!-- Question 1 --><br>
 <img src="images/logo/naruto/naruto.png" id="image"><BR>
@@ -144,7 +157,7 @@ Ceci est un QCM sur Naruto !<br> Connaissez-vous Naruto sur le bout des doigts ?
 <BR><input type="radio" id="q10r3" name="q10" value="0">
 	<label for="q10r3"> Shodaime</label>
 &ensp;<input type="radio" id="q10r4" name="q10" value="0">
-	<label for="q10r4"> Sarutobi</label><br><br><br><br>
+	<label for="q10r4"> Yondaime</label><br><br><br><br>
 	
 	
 <input type=button value="RESULTAT FINAL" name="bouton" id="bouton" ><br>
@@ -160,3 +173,25 @@ Ceci est un QCM sur Naruto !<br> Connaissez-vous Naruto sur le bout des doigts ?
 <div id="scroll_to_top">
     <a href="#top">👆</a>
 </div>
+<ul id="playlist"><br>
+		<p id="black">Playlist : </p>
+		<audio src="" controls id="audioPlayer">
+			Sorry, 	your browser doesn't support html5!
+		</audio>
+			<li class="current-song"><a href="music/naruto/op1.mp3">Op 1</a></li>
+			<li><a href="music/naruto/op2.mp3">Op 2</a></li>
+			<li><a href="music/naruto/op3.mp3"> Op 3</a></li>
+			<li><a href="music/naruto/op4.mp3">Op 4</a></li>
+			<li><a href="music/naruto/op5.mp3"> Op 5</a></li>
+			<li><a href="music/naruto/op6.mp3">Op 6</a></li>
+			<li><a href="music/naruto/op7.mp3">Op 7</a></li>
+			<li><a href="music/naruto/op8.mp3"> Op 8</a></li>
+			<li><a href="music/naruto/op9.mp3">Op 9</a></li>
+			<li><a href="music/naruto/op10.mp3"> Op 10</a></li>
+			<li><a href="music/naruto/op11.mp3">Op 11</a></li>
+			
+		</ul>
+		<script src="https://code.jquery.com/jquery-2.2.0.js">
+		</script>
+		<script src="naruto.js">
+		</script>

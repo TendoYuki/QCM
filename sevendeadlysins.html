@@ -5,6 +5,19 @@
         <title> The Seven Deadly Sins Qcm </title>
 <HEAD>
 <script src="sevendeadlysins.js" defer="defer"></script>
+<style>
+			#playlist{
+			list-style:none;
+			}
+			#playlist li a{
+			color:black;
+			text-decoration:none;
+			}
+			#playlist .current-song a{
+				color:blue;
+				background-color:rgba(10,10,10,0.7);
+				}
+		</style>
 </HEAD>
 <H1><button type="bouton" onclick="window.location.href = 'anime.html';"></left>Anime Qcm</button></H1>
 <center><font size="6"
@@ -160,3 +173,17 @@ Ceci est un QCM sur The Seven Deadly Sins !<br> Connaissez-vous The Seven Deadly
 <div id="scroll_to_top">
     <a href="#top">👆</a>
 </div>
+<ul id="playlist"><br>
+		<p id="black">Playlist : </p>
+		<audio src="" controls id="audioPlayer">
+			Sorry, 	your browser doesn't support html5!
+		</audio>
+			<li class="current-song"><a href="music/sevendeadlysins/op1.mp3">Op 1</a></li>
+			<li><a href="music/sevendeadlysins/op2.mp3">Op 2</a></li>
+			<li><a href="music/sevendeadlysins/op3.mp3"> Op 3</a></li>
+			
+		</ul>
+		<script src="https://code.jquery.com/jquery-2.2.0.js">
+		</script>
+		<script src="sevendeadlysins.js">
+		</script>

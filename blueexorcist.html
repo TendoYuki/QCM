@@ -5,6 +5,19 @@
         <title> blueexorcist Qcm </title>
 <HEAD>
 <script src="blueexorcist.js" defer="defer"></script>
+<style>
+			#playlist{
+			list-style:none;
+			}
+			#playlist li a{
+			color:black;
+			text-decoration:none;
+			}
+			#playlist .current-song a{
+				color:blue;
+				background-color:rgba(10,10,10,0.7);
+				}
+		</style>
 </HEAD>
 <H1><button type="bouton" onclick="window.location.href = 'anime.html';"></left>Anime Qcm</button></H1>
 <center><font size="6"
@@ -160,3 +173,21 @@ Ceci est un QCM sur Blue Exorcist !<br> Connaissez-vous Blue Exorcist sur le bou
 <div id="scroll_to_top">
     <a href="#top">👆</a>
 </div>
+<ul id="playlist"><br>
+		<p id="black">Playlist : </p>
+		<audio src="" controls id="audioPlayer">
+			Sorry, 	your browser doesn't support html5!
+		</audio>
+			<li class="current-song"><a href="music/naruto/Asphyxia.mp3">Asphyxia</a></li>
+			<li><a href="music/naruto/Bluebird.mp3"> BlueBird</a></li>
+			<li><a href="music/naruto/Unravel.mp3">Unravel</a></li>
+			<li><a href="music/naruto/Bluebird.mp3"> BlueBird</a></li>
+			<li><a href="music/naruto/Unravel.mp3">Unravel</a></li>
+			<li><a href="music/naruto/Bluebird.mp3"> BlueBird</a></li>
+			<li><a href="music/naruto/Unravel.mp3">Unravel</a></li>
+			
+		</ul>
+		<script src="https://code.jquery.com/jquery-2.2.0.js">
+		</script>
+		<script src="naruto.js">
+		</script>

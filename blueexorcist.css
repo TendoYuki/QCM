@@ -38,3 +38,11 @@ hr{
 #scroll_to_top img {
   width: 25px;
 }
+#playlist {
+
+  position: fixed;
+  width: 10%;
+  height: 10%;
+  bottom: 70%;
+  left: 0%;
+}
